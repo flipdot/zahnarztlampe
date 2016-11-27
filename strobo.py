@@ -15,4 +15,3 @@ while True:
     packet = "0:0:0"
     sock.sendto(packet, (UDP_IP, UDP_PORT))
     sleep(sleepytime)
-#    sock.close()
