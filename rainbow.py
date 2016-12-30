@@ -3,7 +3,7 @@ from time import sleep
 
 UDP_IP = "192.168.3.102"
 UDP_PORT = 2390
-sleepytime = 0.02
+sleepytime = 0.08
 maxbrightness = 255
 
 sock = socket.socket(socket.AF_INET,
